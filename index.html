@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream #18</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="slideshow.css" rel="stylesheet">
+    <link href="customstyles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
+</head>
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        background: #f4f1de; /* Retro beige tan background */
+        scroll-behavior: smooth;
+        font-family: "Zeyada", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .mupss-logo {
+        margin-right: 150px;
+        color: #c7c1c7 !important;
+        float: right;
+        width: 10%;
+        height: 50px;
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+        margin: 60px auto;
+        overflow: hidden;
+        box-shadow: 20px 20px 15px rgba(0,0,0,0.5); /* Adds depth */
+    }
+
+    .film-strip {
+        display: flex;
+        width: 100%;
+        background: #000; /* Dark background simulating the film */
+        align-items: center;
+    }
+
+    .sprocket-holes {
+        width: 5%; /* Adjust based on preference */
+        height: 100%;
+        background-image: repeating-linear-gradient(#f4f1de, #f4f1de 50%, transparent 50%, transparent 100%);
+        background-size: 100% 20px; /* Adjust the size of the sprocket holes */
+    }
+
+    .images-container {
+        width: 90%; /* Adjust based on sprocket holes width */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery img {
+        max-width: 100%; /* Adjust as needed */
+        margin: 20px 0; /* Space between images */
+    }
+    .mupss-img {
+        width: "200";
+        height: 100;
+    }
+
+    .mupss-logo {
+    margin-right: 150px;
+    float: right;
+    /* Removed color property */
+    /* Adjusted width and height if necessary */
+    }
+
+    .mupss-img {
+        width: 150px; /* Reduced width */
+        height: auto;
+    }
+
+</style>
+<body>
+    <!-- Tribune Header -->
+		<nav class="header" id="navbar">
+			<h1 class="tribune">
+                <a href="../">
+                	The 
+                	<br>
+                	Tribune
+                </a>
+            </h1>
+            <div class="mupss-logo">
+                <a href="https://mupss.ca/">
+                    <img class="mupss-img" src="work1/mupss0.png">
+                </a> 
+            </a>
+            </div>
+		</nav>
+    <!-- Tribune Header -->
+
+
+
+    <div id="image-track" class="gallery" data-mouse-down-at="0" data-prev-percentage="0">
+       
+        <div class="film-strip">
+            <div class="sprocket-holes"></div>
+            <div class="images-container">
+
+                <div class="cover">
+                    <div class="row">
+                        <h1 class="title"><span class="title-box"> Dream #18 </span></h1>
+                        <br>
+
+                        
+                        <h2 class="subtitle">sleepy week before spring break. exploring the Holga Digital toy camera’s unique aesthetic</h2>
+                        <br>
+                        <h3 class="author">by Abby
+            
+                    </div>
+                </div>
+                <img class="img1" src="work1/1.jpg" draggable="false">
+                <img class="img2" src="work1/2.jpg" draggable="false">
+                <img class="img3" src="work1/3.JPG" draggable="false">
+                <img class="img4" src="work1/4.JPG" draggable="false">
+                <img class="img5" src="work1/5.JPG" draggable="false">
+                <img class="img6" src="work1/6.JPG" draggable="false">
+                <img class="img7" src="work1/7.jpg" draggable="false">
+                <img class="img8" src="work1/8.JPG" draggable="false">
+                <h2 class="author"></h2>
+            </div>
+
+            <div class="sprocket-holes"></div> <!-- Right sprocket holes -->
+    
+        </div>
+        
+
+    </div>
+    <!-- Cover image -->
+    <script src="index.js"></script>
+
+</body>
+</html>

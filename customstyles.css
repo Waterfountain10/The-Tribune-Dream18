@@ -1,0 +1,226 @@
+.zeyada-regular {
+  font-family: "Zeyada", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+.image-container {
+  text-align: center; /* Center the image container if needed */
+}
+
+.header-image {
+  max-width: 100%; /* Makes the image responsive */
+  max-height: 500px; /* Adjust based on your header's height */
+  width: auto; /* Maintain aspect ratio */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Use block to apply margin: auto */
+  margin: auto; /* Center the image horizontally */
+}
+
+.body {
+  font-family: "Zeyada", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(185, 185, 185);
+}
+.title {
+  color: rgb(185, 185, 185);
+}
+  
+  .subtitle {
+    color: rgb(185, 185, 185);
+    font-family: 'Courier New', Courier, monospace;
+    width: 75%;
+  }
+  
+  .author {
+    color: rgb(185, 185, 185);
+    
+  }
+  .header-img{
+    margin-top:5%;
+    width: 35%;
+    height: auto;
+    margin-left: 53%;
+    
+  }
+
+  .center-text {
+    text-align: center !important;
+  }
+  hr.dashed {
+    border-top: 3px dashed #bbb;
+}
+
+.section-header {
+  color: #b9bac1;
+  font-family: 'Amplitude-Black';
+  font-size: 24px !important;
+}
+.filler {
+    height: 10vw;
+    opacity: 0;
+    background-color: black;
+  }
+  
+  .tribune {
+    font-family: "Playfair Display" !important;
+    margin-left: 2vw;
+    color: #c7c1c7 !important;
+    float: left;
+    font-size: 32px;
+  }
+  
+  .tribune a {
+    text-decoration: none !important;
+    color:#c7c1c7 !important;
+    cursor: pointer;
+  }
+  
+  .feature {
+    font-family: "Garamond 3 LT Std";
+    margin-right: 2.5vw;
+    color: #c7c1c7;
+    float: right;
+    margin-top: 1vw;
+    font-size: 30px;
+  }
+  :root {
+    --nav-height: 70px; 
+  }
+    
+  .header {
+    position: fixed;
+    background: #000000;
+    z-index: 5;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3s;
+  }
+  .nav-hidden{
+    transform: translateY(-90px);
+  }
+  
+
+  .cover {
+
+  overflow: hidden;
+  position: relative;
+  height: 10%;
+  margin-top: 40px;
+  }
+  
+  .row {
+    display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  text-align: center;
+  position:relative;
+  }
+  .innerwrap p {
+    margin-bottom: 2em;
+    font-size: 22px;
+
+  }
+    
+    /* First letter styling */
+    .innerwrap > p:first-of-type::first-letter {
+    font-size:70px;
+    text-decoration: bold;
+    float: left;
+    line-height: 60px;
+    padding-right: 8px;
+    margin-top:3px;
+  }
+  
+  .innerwrap {
+    width: 50%;
+    height: 100%;
+    max-width: 100%;
+    margin:  auto;
+    padding: 2px 0;
+    font-size: 3em;
+    line-height: 1.6;
+    text-align: left;
+
+  }
+  
+    
+  i {
+    font-style: italic;
+  }
+  ul {
+    list-style-type: disc; /* Use 'disc' for filled circles */
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin-bottom: 10px; /* Adjust as needed */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: black;
+}
+
+.quote {
+    padding: 10px 20px; /* Padding around the quote text */
+    margin: 20px 0; /* Margin to separate from surrounding text */
+    color: #fe0101 !important;
+    font-family: 'Aachen' !important;
+    font-size: 3vw !important;
+    text-align: center;
+}
+
+@media (max-width: 415px) {
+    
+      .tribune{
+        font-size: 28px;
+      }
+      .feature{
+        margin-top: 1.8vw;
+        font-size: 25px;
+      }
+
+      .title {
+        width: 80%;
+      }
+
+      .subtitle {
+        width: 75%;
+      }
+
+      .author {
+        width: 70%;
+      }
+
+      .quote {
+        font-size: 25px !important;
+      }
+  }
+  @media (min-width: 416px) {
+    .title{
+        font-size: 5vw !important;
+        width: 55;
+      }
+      .tribune{
+        font-size: 32px;
+      }
+      .feature{
+        margin-top: 1vw;
+        font-size: 30px;
+      }
+  }
+ 
+  @media (max-width: 768px) {
+    .innerwrap{
+      width: 80% !important;
+    }
+
+  }
+  
